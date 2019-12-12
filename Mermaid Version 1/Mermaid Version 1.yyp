@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "0c21feb7-da1e-4df6-a0a8-b43be1f4b56b",
+            "Value": {
+                "id": "c9de2f85-7574-4ac0-8a4b-64817c8479eb",
+                "resourcePath": "scripts\\scr_jump_check\\scr_jump_check.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "107565d5-d01b-4331-b4fb-af382ff68bf3",
+            "Value": {
+                "id": "f26c5293-3c82-4b5f-9fd6-62fe9c052b32",
+                "resourcePath": "scripts\\scr_set_sprite\\scr_set_sprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1c4a8ed5-b715-4134-b2a5-9f9461fe43fa",
             "Value": {
                 "id": "41c2a768-7760-4bee-9a39-604f24896457",
@@ -100,6 +116,14 @@
                 "id": "e2dd4912-eb24-4d02-b119-6418d54c16ca",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "899275fd-1e13-4b68-9386-b74972c1812b",
+            "Value": {
+                "id": "3f16fb99-903c-4910-b8a9-a1256d9fb1f8",
+                "resourcePath": "scripts\\scr_ground_check\\scr_ground_check.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -199,6 +223,14 @@
             }
         },
         {
+            "Key": "bcb405b3-475b-43b9-8cb4-072ac06fdff8",
+            "Value": {
+                "id": "258af419-aad0-42d0-8574-69626b0154a5",
+                "resourcePath": "scripts\\scr_collision_check\\scr_collision_check.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bf074da2-175a-4b23-b380-7a4fdec7c711",
             "Value": {
                 "id": "a9e8d0db-6a8f-4fa1-bec8-e076f46dfa77",
@@ -279,6 +311,14 @@
             }
         },
         {
+            "Key": "fd1aeb78-2fc3-4ed6-8304-b8d95add9642",
+            "Value": {
+                "id": "1cc64c21-a41f-4aab-bb77-dc2eca4d54a2",
+                "resourcePath": "scripts\\scr_detect_key\\scr_detect_key.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ff8b4be5-cde2-4876-863a-08391cc8b58a",
             "Value": {
                 "id": "05fd544c-0ad8-4b5e-9c1c-05ddab10ce98",
@@ -288,7 +328,11 @@
         }
     ],
     "script_order": [
-        
+        "fd1aeb78-2fc3-4ed6-8304-b8d95add9642",
+        "899275fd-1e13-4b68-9386-b74972c1812b",
+        "0c21feb7-da1e-4df6-a0a8-b43be1f4b56b",
+        "bcb405b3-475b-43b9-8cb4-072ac06fdff8",
+        "107565d5-d01b-4331-b4fb-af382ff68bf3"
     ],
     "tutorial": ""
 }
